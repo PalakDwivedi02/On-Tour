@@ -1,0 +1,116 @@
+       * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin : 0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    
+    body, html {
+        height : 100%;
+    }
+
+    .bgimage {
+        background-image : url("./images/tour2.jpg");
+        height: 100%;
+        background-size: 100%;
+        background-position:center 55%;
+        background-repeat: no-repeat;
+        filter: blur(8px);
+        filter: brightness(-10px);
+    }
+
+    .Text {
+        text-align: center;
+        font-size: 60px;
+        position: absolute;
+        transform:translate(-50%, -50%);
+        z-index: 2;
+        top:10%;
+        left:50%;
+        font-weight: bold;
+        color:chocolate;
+    }
+
+    .Button1 {
+        border-radius: 50%;   
+        position: absolute;
+        top:30%;
+        left:20%;
+        cursor:pointer;
+    }
+    
+    .Button2 {
+        border-radius: 50%;   
+        position: absolute;
+        top:30%;
+        left:47%;
+        cursor:pointer;
+    }
+    
+    .Button3 {
+        border-radius: 50%;   
+        position: absolute;
+        top:30%;
+        left:77%;
+        cursor:pointer;
+    }
+    
+    .Button4 {
+        border-radius: 50%;
+        position: absolute;
+        top:60%;
+        left:34%;
+        cursor:pointer;
+    }
+    
+    .Button5{
+        border-radius: 50%;   
+        position: absolute;
+        top:60%;
+        left:63%;
+        cursor:pointer;
+    }
+
+    img {
+        border-radius: 50%;
+    }
+
+    .Text1 {
+        position: absolute;
+        top:45%;
+        left:18%;
+        font-weight: 800;
+        color:black;
+    }
+
+    .Text2 {
+        position: absolute;
+        top:45%;
+        left:44.48%;
+        font-weight: 800;
+        color:black;
+    }
+
+    .Text3 {
+        position: absolute;
+        top:45%;
+        left:77.53%;
+        font-weight: 800;
+        color:black;
+    }
+
+    .Text4 {
+        position: absolute;
+        top:75%;
+        left:35.43%;
+        font-weight:bolder;
+        color:black;
+    }
+
+    .Text5 {
+        position: absolute;
+        top:75%;
+        left:62.60%;
+        font-weight:bold;
+        color:black;
+    }
